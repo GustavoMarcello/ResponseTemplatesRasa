@@ -1,0 +1,53 @@
+version: "2.0"
+
+rules:
+- rule: oi
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_exemplos
+  
+- rule: exemplos
+  steps:
+  - intent: exemplos
+  - action: utter_exemplos
+  
+- rule: primeira
+  steps:
+  - intent: primeira
+  - action: utter_primeira
+  
+- rule: segunda
+  steps:
+  - intent: segunda
+  - action: utter_segunda
+  
+- rule: terceira
+  steps:
+  - intent: terceira
+  - action: utter_terceira
+  
+- rule: quarta
+  steps:
+  - intent: quarta
+  - action: utter_quarta
+  
+- rule: quinta
+  steps:
+  - intent: quinta
+  - action: utter_quinta
+
+- rule: sexta
+  steps:
+  - intent: sexta
+  - action: utter_sexta
+
+- rule: setima
+  steps:
+  - intent: setima
+  - action: utter_setima
+
+- rule: oitava
+  steps:
+  - intent: oitava
+  - action: action_oitava

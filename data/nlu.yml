@@ -1,0 +1,76 @@
+version: "2.0"
+nlu:
+- intent: greet
+  examples: |
+    - oi
+    - eae
+    - bom dia
+    - salve
+    - olá
+
+- intent: exemplos
+  examples: |
+    - exemplo
+    - exemplos
+    - numeros
+    - opções
+    - opcoes
+
+- intent: primeira
+  examples: |
+    - primeira
+    - primeiro
+    - um
+    - 1
+
+- intent: segunda
+  examples: |
+    - segunda
+    - segundo
+    - dois
+    - 2
+
+- intent: terceira
+  examples: |
+    - terceira
+    - terceiro
+    - tres
+    - três
+    - 3
+
+- intent: quarta
+  examples: |
+    - quarta
+    - quarto
+    - quatro
+    - 4
+
+- intent: quinta
+  examples: |
+    - quinta
+    - quinto
+    - cinco
+    - 5
+
+- intent: sexta
+  examples: |
+    - sexta
+    - sexto
+    - seis
+    - 6
+
+- intent: setima
+  examples: |
+    - setima
+    - sétima
+    - setimo
+    - sétimo
+    - sete
+    - 7
+
+- intent: oitava
+  examples: |
+    - oitava
+    - oitavo
+    - oito
+    - 8

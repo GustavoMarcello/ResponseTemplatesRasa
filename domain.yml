@@ -1,0 +1,88 @@
+version: "2.0"
+
+intents:
+    - greet
+    - exemplos
+    - primeira
+    - segunda
+    - terceira
+    - quarta
+    - quinta
+    - sexta
+    - setima
+    - oitava
+
+responses:
+    utter_greet:
+        - text: |-
+              Este é um projeto didático para possíveis formatações de texto ao front do Rasa.
+
+    utter_exemplos:
+        - text: |-
+              Digite opções entre **primeiro** e **oitavo** para visualizar os exemplos.
+
+    utter_primeira:
+        - text: |-
+              no mesmo balão sem tabular
+
+              - um
+              - dois
+              - três    
+
+    utter_segunda:
+        - text: |-
+              mesmo balão tabulando
+
+              1. um
+              2. dois
+              3. três
+
+    utter_terceira:
+        - text: |-
+              em balões separados
+
+              - um
+
+              - dois
+
+              - três
+
+    utter_quarta:
+        - text: |-
+              tabela
+
+              Exemplo   | Valor do exemplo
+              --------- | ------
+              batata    | R$ 10
+              tomate    | R$ 8
+              cenoura   | R$ 7
+
+    utter_quinta:
+        - text: |-
+              texto e imagem no mesmo balão
+
+              Pra compartilhar conteúdo, clique no ícone ![Alt](https://ajuda.nav.com.br/hc/article_attachments/4653100940301/mceclip1.png) e escolha para quem você deseja encaminhar.
+
+    utter_sexta:
+        - text: |-
+              em formato de código 
+
+              ```
+              1. Verifique se acessou com 
+              seu CPF
+              2. Clique no ícone "Conta"
+              3. Clique em "Seus dados 
+              cadastrais"
+              4. No final da página, clique 
+              em "Excluir conta"
+              ```
+
+    utter_setima:
+        - text: "No mesmo balão, listando com números:\n\n1- um  \n2- dois  \n3- três"
+
+actions:
+  - action_oitava
+
+session_config:
+    session_expiration_time: 60
+    carry_over_slots_to_new_session: true
