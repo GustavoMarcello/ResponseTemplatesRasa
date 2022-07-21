@@ -19,7 +19,7 @@ responses:
 
     utter_exemplos:
         - text: |-
-              Digite opções entre **primeiro** e **oitavo** para visualizar os exemplos.
+              Digite opções entre **primeiro** e **oitava** para visualizar os exemplos.
 
     utter_primeira:
         - text: |-
@@ -68,17 +68,18 @@ responses:
               em formato de código 
 
               ```
-              1. Verifique se acessou com 
-              seu CPF
-              2. Clique no ícone "Conta"
-              3. Clique em "Seus dados 
-              cadastrais"
-              4. No final da página, clique 
-              em "Excluir conta"
+              i = 1
+              for i in 10:
+                print(i)
               ```
 
     utter_setima:
-        - text: "No mesmo balão, listando com números:\n\n1- um  \n2- dois  \n3- três"
+        - text: |-
+            No mesmo balão, listando com números (adicionando 2 espaços no final da linha):
+
+            1- um  
+            2- dois  
+            3- três
 
 actions:
   - action_oitava
